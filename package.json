@@ -1,0 +1,22 @@
+{
+  "name": "playwrighttraining",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cucumber-js",
+    "report": "node generate-html-report.js"
+  },
+  
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.42.1",
+    "@types/node": "^20.11.25",
+    "cucumber-html-reporter": "^7.1.1"
+  },
+  "dependencies": {
+    "@cucumber/cucumber": "^10.3.1"
+  }
+}

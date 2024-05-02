@@ -1,0 +1,15 @@
+{
+    "default": {
+        "format": ["json:reports/cucumber_report.json"],
+        "paths": [
+            "src/tests/resources/features/"
+        ],
+        "require": [
+            "src/tests/steps/*.js"
+        ],
+        "world-parameters": {
+            "configFile": "test-config.json"
+        },
+        "parallel": 2
+    }
+}

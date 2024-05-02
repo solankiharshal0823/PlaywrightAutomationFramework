@@ -1,0 +1,16 @@
+{
+    "launchOptions": {
+        "args": [
+            "--no-sandbox",
+            "--disable-setuid-sandbox",
+            "--disable-web-security",
+            "--use-gl=egl",
+            "--ignore-certificate-errors"
+        ],
+        "viewport": {
+            "width": 1024,
+            "height": 768
+        },
+        "headless": true
+    }
+}
